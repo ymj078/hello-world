@@ -13,7 +13,7 @@
 
 	<context:property-placeholder location="classpath:/config/value.properties"/>
 
-	<context:component-scan base-package="myspring.user, myspring.aop.annot"/>
+	<context:component-scan base-package="myspring"/>
 
 	<aop:aspectj-autoproxy/>
 	<websocket:handlers>
